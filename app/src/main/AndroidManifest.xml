@@ -21,6 +21,38 @@
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".encapsulation.example"
+            android:label="@string/title_activity_example"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".inheritance.example2"
+            android:label="@string/title_activity_example2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".overloading.overloadactivity"
+            android:label="@string/title_activity_overloadactivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".overriding.example6"
+            android:label="@string/title_activity_example6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Abstraction.examole7"
+            android:label="@string/title_activity_examole7"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
